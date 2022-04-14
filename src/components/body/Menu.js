@@ -11,12 +11,12 @@ class Menu extends Component {
             return (
                 <MenuItem dish={item} key={item.id} />
             )
-        })
+        });
         return (
             <div className="container">
                 <div className="row">
                     <div className="col-6">
-
+                        {menu}
                     </div>
                 </div>
             </div>
